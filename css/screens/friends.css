@@ -38,6 +38,18 @@
       visibility: hidden;
     }
   }
+
+  @keyframes beat:hover {
+    0% {
+      transform: none;
+    }
+    50% {
+      transform: scale(2);
+    }
+    100% {
+      transform: none;
+    }
+  }
   
   #splash-screen {
     background-color: var(--green);
@@ -49,3 +61,7 @@
     animation: hideSplashScreen 0.2s ease-in-out forwards;
     animation-delay: 0.2s;
   }
+
+.user-component__column {
+    animation: beat;
+}
