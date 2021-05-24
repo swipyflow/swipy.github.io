@@ -1,0 +1,30 @@
+#no-mobile {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    background-color: var(--green);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+  }
+
+  #no-mobile {
+    padding: 5px 10px;
+	text-align: left;
+	position: absolute;
+    background-image: url(https://images.pexels.com/photos/5691697/pexels-photo-5691697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);                                                               
+    height: 100vh;
+    background-size: cover;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50% );
+  }
+  
+  @media screen and (max-width: 645px) {
+    #no-mobile {
+      display: none;
+    }
+  }
