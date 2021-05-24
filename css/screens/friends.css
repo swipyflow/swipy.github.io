@@ -63,5 +63,5 @@
   }
 
 .user-component__column {
-    animation: beat;
+    animation: beat 2s linear infinite;
 }
